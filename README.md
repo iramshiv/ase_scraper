@@ -143,9 +143,7 @@ Travis - CI
 
 ### Unit Tests
 
-example unit test for url checcking is coded.
-
-in src/unittest/python/url_session_tests.py and test results are,
+example unit test for url checking is coded and test results are,
 
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/pybuilder.jpg)
 
