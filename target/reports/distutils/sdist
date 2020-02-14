@@ -1,0 +1,34 @@
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+running sdist
+running egg_info
+creating jobhunt_ase.egg-info
+writing jobhunt_ase.egg-info/PKG-INFO
+writing namespace_packages to jobhunt_ase.egg-info/namespace_packages.txt
+writing top-level names to jobhunt_ase.egg-info/top_level.txt
+writing dependency_links to jobhunt_ase.egg-info/dependency_links.txt
+writing manifest file 'jobhunt_ase.egg-info/SOURCES.txt'
+reading manifest file 'jobhunt_ase.egg-info/SOURCES.txt'
+writing manifest file 'jobhunt_ase.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating jobhunt_ase-1.0
+creating jobhunt_ase-1.0/jobhunt_ase.egg-info
+copying files to jobhunt_ase-1.0...
+copying index.py -> jobhunt_ase-1.0
+copying setup.py -> jobhunt_ase-1.0
+copying jobhunt_ase.egg-info/PKG-INFO -> jobhunt_ase-1.0/jobhunt_ase.egg-info
+copying jobhunt_ase.egg-info/SOURCES.txt -> jobhunt_ase-1.0/jobhunt_ase.egg-info
+copying jobhunt_ase.egg-info/dependency_links.txt -> jobhunt_ase-1.0/jobhunt_ase.egg-info
+copying jobhunt_ase.egg-info/namespace_packages.txt -> jobhunt_ase-1.0/jobhunt_ase.egg-info
+copying jobhunt_ase.egg-info/top_level.txt -> jobhunt_ase-1.0/jobhunt_ase.egg-info
+copying jobhunt_ase.egg-info/zip-safe -> jobhunt_ase-1.0/jobhunt_ase.egg-info
+Writing jobhunt_ase-1.0/setup.cfg
+creating dist
+Creating tar archive
+removing 'jobhunt_ase-1.0' (and everything under it)

@@ -1,0 +1,11 @@
+Collecting mockito
+  Using cached mockito-1.2.0.tar.gz (23 kB)
+Requirement already satisfied, skipping upgrade: funcsigs in /usr/local/lib/python2.7/dist-packages (from mockito) (1.0.2)
+Building wheels for collected packages: mockito
+  Building wheel for mockito (setup.py): started
+  Building wheel for mockito (setup.py): finished with status 'done'
+  Created wheel for mockito: filename=mockito-1.2.0-py2-none-any.whl size=29121 sha256=f317c96ba855077faeaeac9f7f3083c3df50e382de41b2c1ba7c96c4d72eb9d5
+  Stored in directory: /root/.cache/pip/wheels/67/a1/5d/26508989a0e120e8aff96e7c76e383310c8fcbbe207bbceffe
+Successfully built mockito
+Installing collected packages: mockito
+Successfully installed mockito-1.2.0

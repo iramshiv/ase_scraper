@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: jobhunt-ase
+Version: 1.0
+Summary: Wb Scraper / Git project
+Home-page: https://github.com/iramshiv/jobhunt_ase
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: None
+Description: Web Scraping.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
