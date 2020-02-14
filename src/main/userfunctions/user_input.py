@@ -1,6 +1,6 @@
 from src.main.userfunctions.duration_check import duration_check
 from src.main.userfunctions.job_scraper import job_scraper
-from src.main.userfunctions.page_scraper import page_number_scraper, page_number_first_scraper, page_incrementer
+from src.main.userfunctions.page_scraper import page_number_scraper, page_incrementer
 from src.main.userfunctions.url_checker import homepage_url_checker, duration_url_checker
 from src.main.userfunctions.url_session import session_url
 from random import randint

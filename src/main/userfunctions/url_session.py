@@ -10,7 +10,7 @@ def session_url(url):
 
     while url != "":
         try:
-            req = urllib.request.urlopen(url)
+            urllib.request.urlopen(url)
         except urllib.error.HTTPError as e:
             print(e.reason)
             break

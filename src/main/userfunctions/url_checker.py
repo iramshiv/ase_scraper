@@ -1,7 +1,7 @@
 from src.main.userfunctions.job_parser import home_job_parser, other_job_parser
-from src.main.userfunctions.url_session import session_url
-from random import randint
-from time import sleep
+# from src.main.userfunctions.url_session import session_url
+# from random import randint
+# from time import sleep
 
 
 def homepage_url_checker(url_job, url_city):
