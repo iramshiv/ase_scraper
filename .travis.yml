@@ -1,0 +1,6 @@
+language: python
+
+install: true
+
+script:
+- echo "skipping tests"
