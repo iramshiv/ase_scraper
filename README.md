@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/iramshiv/ase_scraper.svg?branch=master)](https://travis-ci.org/iramshiv/ase_scraper)
-
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=iramshiv_ase_scraper&metric=alert_status)](https://sonarcloud.io/dashboard?id=iramshiv_ase_scraper)
-
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f83a1ffaa6964bfaa4d52be6cf2e1245)](https://www.codacy.com/manual/iramshiv/ase_scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=iramshiv/ase_scraper&amp;utm_campaign=Badge_Grade)
 
 ### Introduction
