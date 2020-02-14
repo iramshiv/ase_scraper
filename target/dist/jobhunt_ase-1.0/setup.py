@@ -25,12 +25,22 @@ if __name__ == '__main__':
         long_description = 'Web Scraping.',
         author = '',
         author_email = '',
-        license = 'None',
+        license = '',
         url = 'https://github.com/iramshiv/jobhunt_ase',
         scripts = [],
         packages = [],
         namespace_packages = [],
-        py_modules = ['index'],
+        py_modules = [
+            'job_parser',
+            'duration_check',
+            'job_scraper',
+            'user_input',
+            'higher_order',
+            'anonymous_function',
+            'url_session',
+            'url_checker',
+            'page_scraper'
+        ],
         classifiers = [
             'Development Status :: 3 - Alpha',
             'Programming Language :: Python'

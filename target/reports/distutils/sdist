@@ -20,8 +20,16 @@ warning: check: missing meta-data: either (author and author_email) or (maintain
 creating jobhunt_ase-1.0
 creating jobhunt_ase-1.0/jobhunt_ase.egg-info
 copying files to jobhunt_ase-1.0...
-copying index.py -> jobhunt_ase-1.0
+copying anonymous_function.py -> jobhunt_ase-1.0
+copying duration_check.py -> jobhunt_ase-1.0
+copying higher_order.py -> jobhunt_ase-1.0
+copying job_parser.py -> jobhunt_ase-1.0
+copying job_scraper.py -> jobhunt_ase-1.0
+copying page_scraper.py -> jobhunt_ase-1.0
 copying setup.py -> jobhunt_ase-1.0
+copying url_checker.py -> jobhunt_ase-1.0
+copying url_session.py -> jobhunt_ase-1.0
+copying user_input.py -> jobhunt_ase-1.0
 copying jobhunt_ase.egg-info/PKG-INFO -> jobhunt_ase-1.0/jobhunt_ase.egg-info
 copying jobhunt_ase.egg-info/SOURCES.txt -> jobhunt_ase-1.0/jobhunt_ase.egg-info
 copying jobhunt_ase.egg-info/dependency_links.txt -> jobhunt_ase-1.0/jobhunt_ase.egg-info

@@ -1,5 +1,13 @@
-index.py
+anonymous_function.py
+duration_check.py
+higher_order.py
+job_parser.py
+job_scraper.py
+page_scraper.py
 setup.py
+url_checker.py
+url_session.py
+user_input.py
 jobhunt_ase.egg-info/PKG-INFO
 jobhunt_ase.egg-info/SOURCES.txt
 jobhunt_ase.egg-info/dependency_links.txt

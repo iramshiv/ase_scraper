@@ -7,13 +7,29 @@ running build
 running build_py
 creating build
 creating build/lib.linux-x86_64-2.7
-copying index.py -> build/lib.linux-x86_64-2.7
+copying job_parser.py -> build/lib.linux-x86_64-2.7
+copying duration_check.py -> build/lib.linux-x86_64-2.7
+copying job_scraper.py -> build/lib.linux-x86_64-2.7
+copying user_input.py -> build/lib.linux-x86_64-2.7
+copying higher_order.py -> build/lib.linux-x86_64-2.7
+copying anonymous_function.py -> build/lib.linux-x86_64-2.7
+copying url_session.py -> build/lib.linux-x86_64-2.7
+copying url_checker.py -> build/lib.linux-x86_64-2.7
+copying page_scraper.py -> build/lib.linux-x86_64-2.7
 installing to build/bdist.linux-x86_64/wheel
 running install
 running install_lib
 creating build/bdist.linux-x86_64
 creating build/bdist.linux-x86_64/wheel
-copying build/lib.linux-x86_64-2.7/index.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/job_parser.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/duration_check.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/job_scraper.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/user_input.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/higher_order.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/anonymous_function.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/url_session.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/url_checker.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/page_scraper.py -> build/bdist.linux-x86_64/wheel
 running install_egg_info
 running egg_info
 writing jobhunt_ase.egg-info/PKG-INFO
@@ -26,7 +42,15 @@ Copying jobhunt_ase.egg-info to build/bdist.linux-x86_64/wheel/jobhunt_ase-1.0-p
 running install_scripts
 creating build/bdist.linux-x86_64/wheel/jobhunt_ase-1.0.dist-info/WHEEL
 creating 'dist/jobhunt_ase-1.0-py2-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-adding 'index.py'
+adding 'anonymous_function.py'
+adding 'duration_check.py'
+adding 'higher_order.py'
+adding 'job_parser.py'
+adding 'job_scraper.py'
+adding 'page_scraper.py'
+adding 'url_checker.py'
+adding 'url_session.py'
+adding 'user_input.py'
 adding 'jobhunt_ase-1.0.dist-info/METADATA'
 adding 'jobhunt_ase-1.0.dist-info/WHEEL'
 adding 'jobhunt_ase-1.0.dist-info/namespace_packages.txt'

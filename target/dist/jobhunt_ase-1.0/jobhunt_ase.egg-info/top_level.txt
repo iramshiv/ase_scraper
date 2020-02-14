@@ -1,1 +1,9 @@
-index
+anonymous_function
+duration_check
+higher_order
+job_parser
+job_scraper
+page_scraper
+url_checker
+url_session
+user_input
