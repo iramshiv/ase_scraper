@@ -137,3 +137,19 @@ Travis - CI
 example unit test for url checking is coded and test results are,
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/pybuilder.jpg)
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/testresult.jpg)
+
+### DSL
+
+An example of dsl is implemented in the project, eventhough it doesn't contribute to the project.
+This is DSL for sdding two numbers.
+
+*Source dsl script*
+![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/srcdsl.jpg)
+*Module file*
+![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/moduledsl.jpg)
+*DSL python file*
+![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/dslpy.jpg)
+*DSL result*
+![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/resultdsl.jpg)
+
+
