@@ -1,9 +1,0 @@
-Name                    Stmts   Miss Branch BrPart  Cover
----------------------------------------------------------
-anonymous_function.py       3      3      2      0     0%
-duration_check.py           7      7      2      0     0%
-higher_order.py             9      9      0      0     0%
-job_parser.py              24     24      4      0     0%
-url_session.py              6      6      2      0     0%
----------------------------------------------------------
-TOTAL                      49     49     10      0     0%
