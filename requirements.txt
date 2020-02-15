@@ -1,0 +1,6 @@
+requests
+python-bs4
+pybuilder
+pytest
+mock
+mockito
