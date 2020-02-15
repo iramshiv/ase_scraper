@@ -1,6 +1,13 @@
 language: python
 
+before_install:
+  - python --version
+  - pip install -U pip
+  - pip install -U pytest
+  - pip install codecov
+
 install: pip install -r requirements.txt
 
-script:
-- echo "skipping tests"
+script: pytest
+
+#script:- echo "skipping tests"
