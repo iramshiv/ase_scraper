@@ -1,5 +1,5 @@
 requests
-python-bs4
+beautifulsoup4
 pybuilder
 pytest
 mock
