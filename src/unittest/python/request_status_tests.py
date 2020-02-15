@@ -1,4 +1,4 @@
-import unittest
+# import unittest
 from unittest import TestCase
 from mock import patch  # for Python >= 3.3 use unittest.mock
 
