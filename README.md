@@ -30,12 +30,10 @@ Run *scraper.py* for the initiating the scrapper.
 **Naming Rules**
 1. Descriptive and Intention revealing variable names. 
 2. Pronounceable and Searchable names.
-
 *Both the points has been covered in the project like as (eg.,) job_title, job_destination.*
 
 **Data Structures**
 3. Data Structure exposes data and have no behaviours.
-
 *This point has been covered under final data structures*
 
 **Objects**
@@ -46,14 +44,12 @@ Run *scraper.py* for the initiating the scrapper.
 6. Functions should have few arguments. (less than 3)
 7. Function should have no side effects.
 8. Fucntions should also have decriptive names.
-
 *all these points have been covered. (eg.,) duration_check(duration_value) which is covered under 'side effect fre function'*
 
 **Tests**
 9. Only one assert per test.
 10. Should be as clean as production code.
 11. should be easy to run.
-
 * all the points have been covered for the url_session_tests.*
 
 **Error Handling**
@@ -63,7 +59,6 @@ Run *scraper.py* for the initiating the scrapper.
 15. Always throws exceptions with constants.
 
 ### Build Management
-
 *pybuilder* has been used as build management tool.
 https://pybuilder.github.io/
 
@@ -91,15 +86,15 @@ build.py file is as below.
 PyCharm shortcuts
 
 1. double ```shift``` -  search
-2. ```alt + enter``` - Show intention actions and quick-fixes
+2. ```alt+enter``` - Show intention actions and quick-fixes
 3. ```F2``` - Navigate between code issues
-4.```shift + F2``` - Jump to the next or previous highlighted error.
-5. ```ctrl + /``` - line comment
-6. ```shift + F10``` - run current file
-7. ```shift + F9``` - debug current file
-8. ```ctrl + f8``` - toogle line breakpoint
-9. ```ctrl + alt + shift + f8``` - toogle temporary line breakpoint
-10. ```ctrl + shift + f8``` - View Breakpoint
+4.```shift+F2``` - Jump to the next or previous highlighted error.
+5. ```ctrl+/``` - line comment
+6. ```shift+F10``` - run current file
+7. ```shift+F9``` - debug current file
+8. ```ctrl+f8``` - toogle line breakpoint
+9. ```ctrl+alt+shift+f8``` - toogle temporary line breakpoint
+10. ```ctrl+shift+f8``` - View Breakpoint
 
 ### Functional Programming
 
@@ -125,7 +120,7 @@ Dict is used as below code,
 **Output of Final data dtructure**
 ![alt-text](https://github.com/iramshiv/ase_scraping/blob/master/finalDS.jpg)
 
-2. side-effect free function
+2. side effect free function
 
 The concepts behind functional programming requires functions to be stateless, and rely only on their given inputs to produce an output. The functions that meet the criteria are called pure functions. The benefit of using pure functions over impure (non-pure) functions is the reduction of side effects.
 
@@ -148,9 +143,3 @@ example unit test for url checking is coded and test results are,
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/pybuilder.jpg)
 
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/testresult.jpg)
-
-
-
-
-
-
