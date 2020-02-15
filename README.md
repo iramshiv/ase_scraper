@@ -68,6 +68,11 @@ Commands:
 Inside the project directory:
 
 ```pyb --start-project```
+````pyb verify```
+```pyb-publish```
+```pip install target/dist/myproject-1.0.dev0/dist/*.tar.gz```
+```cd target/dist/*/```
+```python setup.py upload```
 
 for pychram Ide integration: 
 
@@ -135,7 +140,7 @@ Travis - CI
 ### Unit Tests
 
 example unit test for url checking is coded and test results are,
-![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/unittest1.jpg)
+![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/utest.jpg)
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/testresult.jpg)
 
 ### DSL
