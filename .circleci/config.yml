@@ -1,27 +1,21 @@
-version: 2
-jobs:
-  build:
-    working_directory: ~/ase_scraper
-    docker:
-      - image: circleci/python:3.6.4  # primary container for the build job
-      steps:
-      - checkout  # checkout source code to working directory
-      - run:
-          command: |  # use pipenv to install dependencies
-            sudo pip install pipenv
-            pipenv install
-      - run:
-          command: |
-            pipenv run python manage.py test
-      - store_test_results:
-          path: test-results
-      - store_artifacts:
-          path: test-results
-          destination: tr1
+version: 2.1
 
-- save_cache:
-          key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
-          paths:
-            - ".venv"
-            - "/usr/local/bin"
-            - "/usr/local/lib/python3.6/site-packages"
+orbs:
+  python: circleci/python@0.2.1
+
+jobs:
+  build-and-test:
+    executor: python/default
+    steps:
+      - checkout
+      - python/load-cache
+      - python/install-deps
+      - python/save-cache
+      - run:
+          command: ./manage.py test
+          name: Test
+
+workflows:
+  main:
+    jobs:
+      - build-and-test
