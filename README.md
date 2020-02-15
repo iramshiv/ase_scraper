@@ -28,35 +28,35 @@ Run *scraper.py* for the initiating the scrapper.
 ### Clean Code Development
 
 **Naming Rules**
-1. Descriptive and Intention revealing variable names. 
-2. Pronounceable and Searchable names.
+- Descriptive and Intention revealing variable names. 
+- Pronounceable and Searchable names.
 *Both the points has been covered in the project like as (eg.,) job_title, job_destination.*
 
 **Data Structures**
-3. Data Structure exposes data and have no behaviours.
+- Data Structure exposes data and have no behaviours.
 *This point has been covered under final data structures*
 
 **Objects**
-4. Objects expose behaviour and exposes no data.
+- Objects expose behaviour and exposes no data.
 
 **Functions**
-5. Function should be small and concentrate on only one job.
-6. Functions should have few arguments. (less than 3)
-7. Function should have no side effects.
-8. Fucntions should also have decriptive names.
+- Function should be small and concentrate on only one job.
+- Functions should have few arguments. (less than 3)
+- Function should have no side effects.
+- Fucntions should also have decriptive names.
 *all these points have been covered. (eg.,) duration_check(duration_value) which is covered under 'side effect fre function'*
 
 **Tests**
-9. Only one assert per test.
-10. Should be as clean as production code.
-11. should be easy to run.
+- Only one assert per test.
+- Should be as clean as production code.
+- should be easy to run.
 * all the points have been covered for the url_session_tests.*
 
 **Error Handling**
-12. Never mix erro handling and the code.
-13. use exceptions instead of returning error codes.
-14. first code "try catch finally" -> Structured code.
-15. Always throws exceptions with constants.
+- Never mix erro handling and the code.
+- use exceptions instead of returning error codes.
+- first code "try catch finally" -> Structured code.
+- Always throws exceptions with constants.
 
 ### Build Management
 *pybuilder* has been used as build management tool. <https://pybuilder.github.io/>
@@ -81,16 +81,16 @@ build.py file is as below.
 ### IDE
 PyCharm shortcuts
 
-1. double ```shift``` -  search
-2. ```alt+enter``` - Show intention actions and quick-fixes
-3. ```F2``` - Navigate between code issues
-4.```shift+F2``` - Jump to the next or previous highlighted error.
-5. ```ctrl+/``` - line comment
-6. ```shift+F10``` - run current file
-7. ```shift+F9``` - debug current file
-8. ```ctrl+f8``` - toogle line breakpoint
-9. ```ctrl+alt+shift+f8``` - toogle temporary line breakpoint
-10. ```ctrl+shift+f8``` - View Breakpoint
+- double ```shift``` search
+- ```alt+enter``` Show intention actions and quick-fixes
+- ```F2``` Navigate between code issues
+- ```shift+F2``` Jump to the next or previous highlighted error.
+- ```ctrl+/``` line comment
+- ```shift+F10``` run current file
+- ```shift+F9``` debug current file
+- ```ctrl+f8``` toogle line breakpoint
+- ```ctrl+alt+shift+f8``` toogle temporary line breakpoint
+- ```ctrl+shift+f8``` View Breakpoint
 
 ### Functional Programming
 
