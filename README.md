@@ -59,8 +59,7 @@ Run *scraper.py* for the initiating the scrapper.
 15. Always throws exceptions with constants.
 
 ### Build Management
-*pybuilder* has been used as build management tool.
-https://pybuilder.github.io/
+*pybuilder* has been used as build management tool. <https://pybuilder.github.io/>
 
 Commands:
 
@@ -77,9 +76,6 @@ run ```pyb pycharm_generate```
 
 These are the basic initiation commands.
 build.py file is as below.
-
-
-
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/pybuilder.jpg)
 
 ### IDE
@@ -139,7 +135,5 @@ Travis - CI
 ### Unit Tests
 
 example unit test for url checking is coded and test results are,
-
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/pybuilder.jpg)
-
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/testresult.jpg)
