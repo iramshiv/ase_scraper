@@ -23,6 +23,9 @@ default_task = "publish"
 @init
 def initialize(project):
     project.build_depends_on("mockito")
+    project.set_property("run_unit_tests_command", "py.test %s" % project.expand_path("/src/main/unittest/python"))
+    project.set_property("run_unit_tests_propagate_stdout", True)
+    project.set_property("run_unit_tests_propagate_stderr", True)
 
 
 @init
