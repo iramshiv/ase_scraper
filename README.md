@@ -5,7 +5,7 @@
 ### Introduction
 This is a web scraping project, scrapping stepstones.de using python and beautiful soup. This scraps only for jobs posted newer than 24 hours or seven days, which can be chose by user.
 
-Run *scraper.py* for the initiating the scrapper.
+Run *scraper.py* to initiate the scrapper.
 
 ### UML DIAGRAM
 
@@ -53,7 +53,7 @@ Run *scraper.py* for the initiating the scrapper.
 * all the points have been covered for the url_session_tests.*
 
 **Error Handling**
-- Never mix erro handling and the code.
+- Never mix error handling and the code.
 - use exceptions instead of returning error codes.
 - first code "try catch finally" -> Structured code.
 - Always throws exceptions with constants.
@@ -103,7 +103,7 @@ PyCharm shortcuts
 
 In src/main/userfunctions/job_scraper.py
 
-Dict is used as below code,
+'Dict' is used as below code,
 
 ```jobs = {} ```
 ```title_job = job_title.text```
@@ -123,7 +123,7 @@ Dict is used as below code,
 
 2. side effect free function
 
-The concepts behind functional programming requires functions to be stateless, and rely only on their given inputs to produce an output. The functions that meet the criteria are called pure functions. The benefit of using pure functions over impure (non-pure) functions is the reduction of side effects.
+The concepts behind functional programming requires functions to be stateless, and rely only on their given inputs to produce an output. The functions that meet the criteria are also called pure functions. The benefit of using pure functions over impure (non-pure) functions is the reduction of side effects.
 
 In src/main/userfunctions/duration_check.py
 ![alt-text](https://github.com/iramshiv/ase_scraping/blob/master/freefunction.jpg)
@@ -146,7 +146,7 @@ example unit test for url checking is coded and test results are,
 ### DSL
 
 An example of dsl is implemented in the project, eventhough it doesn't contribute to the project.
-This is DSL for sdding two numbers.
+This is DSL for adding two numbers.
 
 *Source dsl script*
 
