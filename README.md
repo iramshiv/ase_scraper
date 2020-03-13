@@ -10,7 +10,7 @@ Run *scraper.py* for the initiating the scrapper.
 ### UML DIAGRAM
 
 **Activity Diagram**
-![alt_text]()
+![alt_text](https://github.com/iramshiv/ase_scraping/blob/master/activity.jpg)
 
 **Sequence Diagram**
 ![alt_text](https://github.com/iramshiv/ase_scraping/blob/master/Sequence.jpg)
