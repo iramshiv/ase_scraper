@@ -16,7 +16,7 @@ Run *scraper.py* for the initiating the scrapper.
 ![alt_text](https://github.com/iramshiv/ase_scraping/blob/master/Sequence.jpg)
 
 **Use case Diagram**
-![alt-text](https://github.com/iramshiv/ase_scraping/blob/master/usecase.jpg)
+![alt-text](https://github.com/iramshiv/ase_scraper/blob/master/usecase.jpg)
 
 ### Metrics
 **Sonarcube**
