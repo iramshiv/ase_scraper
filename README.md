@@ -133,6 +133,19 @@ Result:
 
 It is an exapmle of side-effect free function.
 
+3. as parameter and return value:
+![alt-text](https://github.com/iramshiv/ase_scraper/blob/master/images/funParVal.jpg)
+
+```duration_check()``` fucntion is used as a parameter in ```duration_url_checker()```.
+
+```page_incrementer()``` is used as a return value.
+
+Higher order fuction:
+![alt-text](https://github.com/iramshiv/ase_scraper/blob/master/images/higher.jpg)
+
+Anonymous functions:
+![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/anonymous.jpg)
+
 ### Continous Integration
 Travis - CI
 [![Build Status](https://travis-ci.org/iramshiv/ase_scraper.svg?branch=master)](https://travis-ci.org/iramshiv/ase_scraper)
@@ -163,3 +176,13 @@ This is DSL for adding two numbers.
 *DSL result*
 
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/resultdsl.jpg)
+
+### Alternative
+
+Data are scrapped in the project by "class name" of the "div" element. stepstones.de usually changes the class names frequently but the structure of the html page remains same through my observation. 
+
+So, I propose also an alternate way to scrape the data by scrapping the "class name of div elements first then the data.
+
+example of the code is in tag_scraper.py and also as per the image below,
+![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/altscrape.jpg)
+
