@@ -33,22 +33,22 @@ Run *scraper.py* to initiate the scrapper.
 *Both the points has been covered in the project like as (eg.,) job_title, job_destination.*
 
 **Data Structures**
-- Data Structure exposes data and have no behaviours.
+- exposes data and have no behaviours.
 *This point has been covered under final data structures*
 
 **Objects**
-- Objects expose behaviour and exposes no data.
+- expose behaviour and exposes no data.
 
 **Functions**
-- Function should be small and concentrate on only one job.
-- Functions should have few arguments. (less than 3)
-- Function should have no side effects.
-- Fucntions should also have decriptive names.
-*all these points have been covered. (eg.,) duration_check(duration_value) which is covered under 'side effect fre function'*
+- should be small and concentrate on only one job.
+- should have few arguments. (less than 3)
+- should have no side effects.
+- should also have decriptive names.
+*all these points have been covered. (eg.,) duration_check(duration_value) which is covered under 'side effect free function'*
 
 **Tests**
-- Only one assert per test.
-- Should be as clean as production code.
+- only one assert per test.
+- should be as clean as production code.
 - should be easy to run.
 * all the points have been covered for the url_session_tests.*
 
