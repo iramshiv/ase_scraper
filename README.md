@@ -183,7 +183,7 @@ Data are scrapped in this project by the "class name" of the "div" element.
 
 "stepstones.de" usually changes the class names frequently but the structure of the html page remains same through my observation. 
 
-So, I also proposo an alternate way to scrape the data by scrapping the "class name of div elements first", then the data is scrapped.
+So, I also propose an alternate way to scrape the data by scrapping the "class name of div elements first", then the data is scrapped.
 
 example of the code is in file ```tag_scraper.py```
 
