@@ -179,10 +179,21 @@ This is DSL for adding two numbers.
 
 ### Alternative
 
-Data are scrapped in the project by "class name" of the "div" element. stepstones.de usually changes the class names frequently but the structure of the html page remains same through my observation. 
+Data are scrapped in this project by the "class name" of the "div" element. 
 
-So, I propose also an alternate way to scrape the data by scrapping the "class name of div elements first then the data.
+"stepstones.de" usually changes the class names frequently but the structure of the html page remains same through my observation. 
 
-example of the code is in tag_scraper.py and also as per the image below,
+So, I also proposo an alternate way to scrape the data by scrapping the "class name of div elements first", then the data is scrapped.
+
+example of the code is in file ```tag_scraper.py```
+
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/altscrape.jpg)
+
+This file also saves the data scrapped as ```jobs.csv``` format apart from the terminal output.
+
+I will continue updating the project with following functions in future,
+    - including scrapping other wesites
+    - hosting this projrct as a web application
+    - forwarding automatic email about job offers.
+    
 
