@@ -192,8 +192,8 @@ example of the code is in file ```tag_scraper.py```
 This file also saves the data scrapped as ```jobs.csv``` format apart from the terminal output.
 
 I will continue updating the project with following functions in future,
-    - including scrapping other wesites
-    - hosting this projrct as a web application
+    - including scrapping other wesites.
+    - hosting this project as a web application.
     - forwarding automatic email about job offers.
     
 
