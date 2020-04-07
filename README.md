@@ -154,9 +154,9 @@ It is an exapmle of side-effect free function.
         
 ![alt-text](https://github.com/iramshiv/ase_scraper/blob/master/images/higher.jpg)
 
-Anonymous functions:
-    In Python, anonymous function is a function that is defined without a name. While normal functions are defined using the def keyword, in Python anonymous functions are defined using the lambda keyword. Hence, anonymous functions are also called lambda functions.
-    Simple example that explains the anonymous functions,
+-- Anonymous functions:
+            In Python, anonymous function is a function that is defined without a name. While normal functions are defined using the def keyword, in Python anonymous functions are defined using the lambda keyword. Hence, anonymous functions are also called lambda functions.
+ Simple example that explains the anonymous functions,
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/anonymous.jpg)
 
 ### Continous Integration
