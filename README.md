@@ -99,7 +99,7 @@ PyCharm shortcuts
 
 ### Functional Programming
 
-1. Final Data structure:
+-- Final Data structure:
 
 In src/main/userfunctions/job_scraper.py
 
@@ -121,7 +121,7 @@ In src/main/userfunctions/job_scraper.py
 **Output of Final data dtructure**
 ![alt-text](https://github.com/iramshiv/ase_scraping/blob/master/finalDS.jpg)
 
-2. side effect free function
+-- side effect free function
 
 The concepts behind functional programming requires functions to be stateless, and rely only on their given inputs to produce an output. The functions that meet the criteria are also called pure functions. The benefit of using pure functions over impure (non-pure) functions is the reduction of side effects.
 
@@ -133,17 +133,30 @@ Result:
 
 It is an exapmle of side-effect free function.
 
-3. as parameter and return value:
+-- as parameter and return value:
 ![alt-text](https://github.com/iramshiv/ase_scraper/blob/master/images/funParVal.jpg)
 
 ```duration_check()``` fucntion is used as a parameter in ```duration_url_checker()```.
 
 ```page_incrementer()``` is used as a return value.
 
-Higher order fuction:
+-- Higher order fuction:
+            A function is called Higher Order Function if it contains other functions as a parameter or returns a function as an output i.e, the functions that operate with another function are known as Higher order Functions. It is worth knowing that this higher order function is applicable for functions and methods as well that takes functions as a parameter or returns a function as a result. Python too supports the concepts of higher order functions.
+            
+   Properties of higher-order functions:
+        A function is an instance of the Object type.
+        can store the function in a variable.
+        can pass the function as a parameter to another function.
+        can return the function from a function.
+        can store them in data structures such as hash tables, list.
+
+   Example are used in the project can be seen in ```duration_check()``` and ```page_incrementer()``` functions and also explained an simple example as follows apart from the usage from this project.
+        
 ![alt-text](https://github.com/iramshiv/ase_scraper/blob/master/images/higher.jpg)
 
 Anonymous functions:
+    In Python, anonymous function is a function that is defined without a name. While normal functions are defined using the def keyword, in Python anonymous functions are defined using the lambda keyword. Hence, anonymous functions are also called lambda functions.
+    Simple example that explains the anonymous functions,
 ![alt_text](https://github.com/iramshiv/ase_scraper/blob/master/images/anonymous.jpg)
 
 ### Continous Integration
